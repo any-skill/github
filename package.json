@@ -1,0 +1,33 @@
+{
+  "name": "@any-skill/github",
+  "version": "1.0.0",
+  "description": "Non-interactive GitHub CLI and portable Agent Skill",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "any-skill-github": "bin/github.js"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "SKILL.md",
+    "README.md",
+    "LICENSE",
+    "npm-shrinkwrap.json"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/any-skill/github.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/core": "7.0.8",
+    "@octokit/plugin-paginate-rest": "14.0.0"
+  }
+}

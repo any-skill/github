@@ -1,0 +1,10 @@
+[
+  {
+    "path": "src/main.js",
+    "body": "Handle empty input.",
+    "line": 10,
+    "side": "RIGHT",
+    "start_line": 8,
+    "start_side": "RIGHT"
+  }
+]
